@@ -1,12 +1,19 @@
-# Combinato Output Comparison Suite
+# combinato-pipeline-reproducibility-tests
 
-This suite contains MATLAB utilities to **validate and verify reproducibility**
-between outputs of the **old** and **new** Combinato pipelines for a single
-recording session.
+This test suite is developed in the context of the  
+**[AG Mormann – Cognitive and Clinical Neurophysiology](https://www.ukbonn.de/epileptologie/arbeitsgruppen/ag-mormann-kognitive-und-klinische-neurophysiologie/)**  
+at the University Hospital Bonn (UKB). It's 
 
-It ensures that scientific and metadata outputs are **numerically equivalent**,  
-**structurally identical**, or **deterministically consistent** — supporting
-regression testing and version control for Combinato refactoring.
+It contains MATLAB utilities to **validate and verify reproducibility** between
+outputs of the **old** and **new** Combinato pipelines for a single recording
+session.
+
+The suite ensures that scientific and metadata outputs are  
+**numerically equivalent**, **structurally identical**, or
+**deterministically consistent**, supporting regression testing and pipeline
+refactoring of Combinato.
+
+Related Repository: **[Combinato Minimal Spike Sorting Pipeline](https://github.com/s6subarm/Combinato-Minimal_Spike_Sorting_Pipeline)**
 
 ---
 
