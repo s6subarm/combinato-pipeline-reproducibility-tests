@@ -232,9 +232,13 @@ function e = handleMatFile(e, have, pNew, pOld)
             helper = 'compare_cellwise_mat';
             fn = @compare_cellwise_mat;
 
-        case {'mat_qmetrics','mat_struct_generic'}
+        case 'mat_qmetrics'
             helper = 'compare_struct_metrics';
             fn = @compare_struct_metrics;
+
+        case 'mat_struct_generic'
+            helper = 'compare_cellwise_mat';
+            fn = @compare_cellwise_mat;
 
         otherwise
             helper = 'compare_checksum';
